@@ -1,0 +1,14 @@
+Only in QTeXEngine.old/: COPYING.txt
+Only in QTeXEngine.old/: doc
+diff -urP --exclude=.svn QTeXEngine.old/src/QTeXPaintEngine.cpp QTeXEngine-20100119/src/QTeXPaintEngine.cpp
+--- QTeXEngine.old/src/QTeXPaintEngine.cpp	2009-08-17 15:30:28.000000000 +0800
++++ QTeXEngine-20100119/src/QTeXPaintEngine.cpp	2009-10-02 19:41:56.000000000 +0800
+@@ -409,7 +409,7 @@
+ 
+ 	t << "\\pgfputat";
+ 	t << pgfPoint(convertPoint(painter()->worldMatrix().map(r.bottomLeft())));
+-	t << "{\\pgfimage[interpolate=true,width=";
++	t << "{\\pgfimage[interpolate=false,width=";
+ 
+ 	QString u = unit();
+ 	t << QString::number(r.width()*resFactorX()) + u + ",height=";

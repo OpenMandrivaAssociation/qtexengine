@@ -1,0 +1,15 @@
+--- QTeXEngine/src/src.pro.org	2010-07-10 02:11:48.612591001 +0800
++++ QTeXEngine/src/src.pro	2010-07-10 02:13:09.729814076 +0800
+@@ -19,3 +19,12 @@
+ HEADERS  = QTeXEngine.h
+ SOURCES += QTeXPaintEngine.cpp
+ SOURCES += QTeXPaintDevice.cpp
++
++# Install directives
++INSTALLBASE = /usr
++
++target.path = $$LIBDIR
++headers.path = $$INSTALLBASE/include
++
++headers.files = $$HEADERS
++INSTALLS = target headers
