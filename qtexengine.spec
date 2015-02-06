@@ -4,7 +4,7 @@
 
 Name: qtexengine
 Version: 0.2
-Release: %mkrel 1
+Release: 2
 Summary: Library enabling Qt based applications to easily export graphics to TeX
 License: GPLv3
 Group: System/Libraries
