@@ -4,7 +4,7 @@
 
 Name: qtexengine
 Version: 0.2
-Release: %mkrel 1
+Release: 1.1
 Summary: Library enabling Qt based applications to easily export graphics to TeX
 License: GPLv3
 Group: System/Libraries
@@ -80,10 +80,3 @@ rm -rf %{buildroot}
 %doc doc/html example
 %{_includedir}/QTeXEngine.h
 %{_libdir}/libQTeXEngine.so
-
-
-%changelog
-* Fri Oct 15 2010 Funda Wang <fwang@mandriva.org> 0.2-1mdv2011.0
-+ Revision: 585745
-- import qtexengine
-
