@@ -8,7 +8,7 @@ Release: 2
 Summary: Library enabling Qt based applications to easily export graphics to TeX
 License: GPLv3
 Group: System/Libraries
-URL: http://soft.proindependent.com/qtexengine/
+URL: https://soft.proindependent.com/qtexengine/
 Source0: http://download.berlios.de/qtiplot/QTeXEngine-%{version}-opensource.zip
 # Fixes the build and install of QTeXEngine
 Patch0: QTeXEngine-svn1552-path.patch
